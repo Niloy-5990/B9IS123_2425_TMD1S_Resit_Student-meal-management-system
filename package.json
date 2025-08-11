@@ -1,0 +1,22 @@
+{
+  "name": "student-meal-management-system",
+  "version": "1.0.0",
+  "description": "A web-based application to manage student meals.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node seed.js && nodemon server.js"
+    
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "author": "Niloy-5990",
+  "license": "MIT"
+}
